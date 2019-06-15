@@ -14,8 +14,8 @@ def main():
     global cameraX, cameraY
     global RESET_LEVEL_FLAG
     RESET_LEVEL_FLAG = False
-    pygame.mixer.pre_init(44100,16,2,4096)
     pygame.init()
+    pygame.mixer.pre_init(44100,16,2,4096)
 
     print ("Game loaded.")
     loading = False
